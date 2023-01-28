@@ -10,6 +10,10 @@
         max-width: 976px;
     }
 
+    &--narrow {
+        max-width: 470px;
+    }
+
     .wrapper {
         padding-left: 0;
         padding-right: 0;
@@ -21,7 +25,7 @@
         @mixin atSmall {
             margin-bottom: 3.875rem;
         }
-        
+
     }
 
     &--no-padding-until-medium {
