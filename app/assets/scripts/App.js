@@ -3,7 +3,9 @@ import 'lazysizes';
 import MobileMenu from "./modules/MobileMenu";
 import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
+import ClientArea from "./modules/ClientArea";
 
+new ClientArea();
 new MobileMenu();
 new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
